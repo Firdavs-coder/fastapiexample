@@ -1,4 +1,6 @@
-# I just learnt how to auto deploy with Github and SSH. So, I want to share with you the steps.
+# Auto Deployment
+
+## I just learnt how to auto deploy with Github and SSH. So, I want to share with you the steps
 
 1. Deploy the project on github
 
