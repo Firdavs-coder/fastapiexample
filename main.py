@@ -10,4 +10,4 @@ async def hello():
 
 @app.get("/test")
 async def hello():
-    return {"status": 200}
+    return {"status": 404}
