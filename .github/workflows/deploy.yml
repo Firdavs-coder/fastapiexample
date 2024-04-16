@@ -13,6 +13,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run PyLint
+        run: |
+          pylint main.py
+
       - name: SSH into server and deploy
         uses: appleboy/ssh-action@master
         with:
