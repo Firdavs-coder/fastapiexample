@@ -2,7 +2,7 @@
 
 ## I just learnt how to auto deploy with Github and SSH. So, I want to share with you the steps
 
-## Live: http://176.58.107.161:80
+### [Demo](http://176.58.107.161:80)
 
 1. Deploy the project on github
 
