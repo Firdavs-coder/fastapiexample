@@ -13,7 +13,7 @@ async def hello():
 
 
 @app.get("/status")
-async def status():
+async def hello():  # pylint: disable=function-redefined
     "This is a status of the project"
 
     return {"status": 401}
