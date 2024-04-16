@@ -8,6 +8,6 @@ async def hello():
     return {"hello": "Hello Developers 4"}
 
 
-@app.get("/test")
+@app.get("/status")
 async def hello():
     return {"status": 401}
